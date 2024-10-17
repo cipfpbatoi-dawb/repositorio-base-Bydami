@@ -1,4 +1,6 @@
 <?php
+namespace DTF\Models;
+
 class Cotxe {
     
     private string $marca;
@@ -13,7 +15,4 @@ class Cotxe {
         echo "Cotxe ".$this->marca." amb modelo ".$this->modelo;  
     }
 }
-
-$cotxe1 = new Cotxe("Marca1", "Modelo1");
-$cotxe1->mostraInformacio();
 ?>
